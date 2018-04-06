@@ -7,5 +7,5 @@ npm install
 node index.js
 ```
 
-Now try to fetch the page on http://<YOUR-HOST>:8787/ through a proxy to see if the proxy is vulnerable.
+Now try to fetch the page on `http://<YOUR-HOST>:8787/` through a proxy to see if the proxy is vulnerable.
 
