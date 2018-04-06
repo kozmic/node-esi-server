@@ -6,5 +6,11 @@
   Include test: <esi:include src="http://stal.es" />
   <br>
   Var test: <esi:assign name="var1" value="'succ'"/><esi:vars name="$(var1)"/>ess
+  User agent test:  <esi:include src="http://stal.es/$(HTTP_USER_AGENT)"/>
+  <!--esi
+	    <p><esi:vars>Hello, $(HTTP_COOKIE)!</esi:vars></p>
+  -->
+  <scr<!--esi-->ipt>aler<!--esi-->t(1)</sc<!--esi-->ript>
+  <esi:vars>$HTTP_TIME($TIME())</esi:vars>
 </body>
 </html>
