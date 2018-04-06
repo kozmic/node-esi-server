@@ -1,4 +1,6 @@
 # node-esi-server
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/kozmic/node-esi-server.svg)](https://greenkeeper.io/)
 Express server serving ESI tags to test for edge side inclusion injection (https://gosecure.net/2018/04/03/beyond-xss-edge-side-include-injection/)
 
 Getting started:
