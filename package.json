@@ -1,0 +1,22 @@
+{
+  "name": "esi-server",
+  "version": "1.0.0",
+  "description": "Express server serving ESI tags to test for edge side inclusion injection (https://gosecure.net/2018/04/03/beyond-xss-edge-side-include-injection/)",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kozmic/node-esi-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kozmic/node-esi-server/issues"
+  },
+  "homepage": "https://github.com/kozmic/node-esi-server#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
